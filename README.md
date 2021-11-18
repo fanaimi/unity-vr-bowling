@@ -29,5 +29,9 @@
 	* XR Grab Interactable
 	
 * for Hands:
-	* remove "XR Ray Interactor", "XR Ray Interactor Line Visual" and "Line Renderer" 
+	* remove "XR Ray Interactor", "XR Interactor Line Visual" and "Line Renderer" 
 	* add component "XR DIrect Interactor"
+	* add "box collider" and scale to 0.1(x,y,z), set IsTrigger as true
+	
+* to avoiding seeiing through objects: 
+	* main camera > Camera > Clipping planes > Near: 0.01
