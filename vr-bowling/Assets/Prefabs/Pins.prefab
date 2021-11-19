@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 7013258074328270003}
   m_Layer: 0
   m_Name: Pins
-  m_TagString: Untagged
+  m_TagString: AllPinsPrefab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -351,6 +351,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kegel (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 139516, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
+      propertyPath: m_TagString
+      value: BowlingPin
+      objectReference: {fileID: 0}
     - target: {fileID: 424252, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -429,6 +433,10 @@ PrefabInstance:
     - target: {fileID: 139516, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
       propertyPath: m_Name
       value: Kegel (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 139516, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
+      propertyPath: m_TagString
+      value: BowlingPin
       objectReference: {fileID: 0}
     - target: {fileID: 424252, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
       propertyPath: m_RootOrder
@@ -509,6 +517,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kegel (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 139516, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
+      propertyPath: m_TagString
+      value: BowlingPin
+      objectReference: {fileID: 0}
     - target: {fileID: 424252, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -587,6 +599,10 @@ PrefabInstance:
     - target: {fileID: 139516, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
       propertyPath: m_Name
       value: Kegel (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 139516, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
+      propertyPath: m_TagString
+      value: BowlingPin
       objectReference: {fileID: 0}
     - target: {fileID: 424252, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
       propertyPath: m_RootOrder
@@ -667,6 +683,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kegel
       objectReference: {fileID: 0}
+    - target: {fileID: 139516, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
+      propertyPath: m_TagString
+      value: BowlingPin
+      objectReference: {fileID: 0}
     - target: {fileID: 424252, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -745,6 +765,10 @@ PrefabInstance:
     - target: {fileID: 139516, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
       propertyPath: m_Name
       value: Kegel (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 139516, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
+      propertyPath: m_TagString
+      value: BowlingPin
       objectReference: {fileID: 0}
     - target: {fileID: 424252, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
       propertyPath: m_RootOrder
@@ -825,6 +849,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kegel (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 139516, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
+      propertyPath: m_TagString
+      value: BowlingPin
+      objectReference: {fileID: 0}
     - target: {fileID: 424252, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -903,6 +931,10 @@ PrefabInstance:
     - target: {fileID: 139516, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
       propertyPath: m_Name
       value: Kegel (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 139516, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
+      propertyPath: m_TagString
+      value: BowlingPin
       objectReference: {fileID: 0}
     - target: {fileID: 424252, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
       propertyPath: m_RootOrder
@@ -983,6 +1015,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kegel (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 139516, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
+      propertyPath: m_TagString
+      value: BowlingPin
+      objectReference: {fileID: 0}
     - target: {fileID: 424252, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1061,6 +1097,10 @@ PrefabInstance:
     - target: {fileID: 139516, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
       propertyPath: m_Name
       value: Kegel (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 139516, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
+      propertyPath: m_TagString
+      value: BowlingPin
       objectReference: {fileID: 0}
     - target: {fileID: 424252, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
       propertyPath: m_RootOrder

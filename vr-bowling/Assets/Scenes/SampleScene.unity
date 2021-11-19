@@ -1919,6 +1919,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25f88f22f15fd894390216b707171f2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pinsPrefab: {fileID: 7013258074328270002, guid: 0025a067b72d24b43b3e0eb022f1275a, type: 3}
 --- !u!4 &1290553143
 Transform:
   m_ObjectHideFlags: 0
@@ -2831,6 +2832,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7013258074304163970, guid: 0025a067b72d24b43b3e0eb022f1275a, type: 3}
+      propertyPath: m_TagString
+      value: BowlingPin
+      objectReference: {fileID: 0}
     - target: {fileID: 7013258074328270002, guid: 0025a067b72d24b43b3e0eb022f1275a, type: 3}
       propertyPath: m_Name
       value: Pins
@@ -2878,6 +2883,42 @@ PrefabInstance:
     - target: {fileID: 7013258074328270003, guid: 0025a067b72d24b43b3e0eb022f1275a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013258074455468995, guid: 0025a067b72d24b43b3e0eb022f1275a, type: 3}
+      propertyPath: m_TagString
+      value: BowlingPin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013258074608325189, guid: 0025a067b72d24b43b3e0eb022f1275a, type: 3}
+      propertyPath: m_TagString
+      value: BowlingPin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013258074911446562, guid: 0025a067b72d24b43b3e0eb022f1275a, type: 3}
+      propertyPath: m_TagString
+      value: BowlingPin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013258075114099311, guid: 0025a067b72d24b43b3e0eb022f1275a, type: 3}
+      propertyPath: m_TagString
+      value: BowlingPin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013258075430440988, guid: 0025a067b72d24b43b3e0eb022f1275a, type: 3}
+      propertyPath: m_TagString
+      value: BowlingPin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013258075602687095, guid: 0025a067b72d24b43b3e0eb022f1275a, type: 3}
+      propertyPath: m_TagString
+      value: BowlingPin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013258075898442776, guid: 0025a067b72d24b43b3e0eb022f1275a, type: 3}
+      propertyPath: m_TagString
+      value: BowlingPin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013258076181633090, guid: 0025a067b72d24b43b3e0eb022f1275a, type: 3}
+      propertyPath: m_TagString
+      value: BowlingPin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013258076204940426, guid: 0025a067b72d24b43b3e0eb022f1275a, type: 3}
+      propertyPath: m_TagString
+      value: BowlingPin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0025a067b72d24b43b3e0eb022f1275a, type: 3}
