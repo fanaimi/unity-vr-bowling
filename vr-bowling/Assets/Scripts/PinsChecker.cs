@@ -51,7 +51,7 @@ public class PinsChecker : MonoBehaviour
         {
             // print("one less standing");
             pinsUpCount--;
-            print($"{pinsUpCount} pins left standing");
+            // print($"{pinsUpCount} pins left standing");
         }
     }
 }
