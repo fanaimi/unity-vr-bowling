@@ -1,5 +1,7 @@
 # unity-vr-bowling
 
+Watch demo at https://vimeo.com/manage/videos/649130939
+
 * XR INTERACTION TOOLKIT
 	* "com.unity.xr.interaction.toolkit": "1.0.0-pre.8"
 	* import "Default Input Actions" and "XR device simulator"
@@ -36,6 +38,12 @@
 * to avoiding seeiing through objects: 
 	* main camera > Camera > Clipping planes > Near: 0.01
 	
+
+* STATIC LIGHTING in unity
+	* check this out: > https://www.youtube.com/watch?v=VnG2gOKV9dw&ab_channel=Brackeys
+	
+	
+	
 * REALTIME LIGHTTING SETUP
 	* start from > https://www.youtube.com/watch?v=wwm98VdzD8s&ab_channel=Brackeys 
 	* edit > project settings > player ==> other settings > rendering > color space > linear
@@ -70,7 +78,7 @@
 	* start with DIRECTIONAL LIGHT (kinda like sun), play with SOFT SHADOWS, COLOR, INTENSITY
 	* can use POINT LIGHT or SPOTLIGHT
 	
-* STATIC LIGHT AND POST PROCESSING
+* STATIC LIGHTS AND POST PROCESSING
 	* create, size a position a plane
 	* create a new material and call it glow-something :), drag it onto the plane
 	* in the material, check "Emission", define a color
