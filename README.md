@@ -63,4 +63,9 @@
 	* lighting settings > new lighting settings (create a new one) 
 	* real time lighting > Real time global illumination	
 	* have a look at SKYBOX eg "free HDr sky"
+	* lightning > environment > select "skybox material"
+	* Environment lighting > source > gradient / color (chose black color for indoor scenes)
 	
+* LIGHT EMITTERS
+	* start with DIRECTIONAL LIGHT (kinda like sun), play with SOFT SHADOWS, COLOR, INTENSITY
+	* 
