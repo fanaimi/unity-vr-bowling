@@ -36,7 +36,7 @@
 * to avoiding seeiing through objects: 
 	* main camera > Camera > Clipping planes > Near: 0.01
 	
-* LIGHTTING SETUP
+* REALTIME LIGHTTING SETUP
 	* start from > https://www.youtube.com/watch?v=wwm98VdzD8s&ab_channel=Brackeys 
 	* edit > project settings > player ==> other settings > rendering > color space > linear
 	* main camera > allow HDR
@@ -68,4 +68,12 @@
 	
 * LIGHT EMITTERS
 	* start with DIRECTIONAL LIGHT (kinda like sun), play with SOFT SHADOWS, COLOR, INTENSITY
-	* 
+	* can use POINT LIGHT or SPOTLIGHT
+	
+* STATIC LIGHT AND POST PROCESSING
+	* create, size a position a plane
+	* create a new material and call it glow-something :), drag it onto the plane
+	* in the material, check "Emission", define a color
+	* in post processing, select BLOOM effect and play with parameters
+	* for each emitter, add a POINT LIGHT, set a color and play with range
+	* still in POST PROCESSING, add a new effect "AMBIENT OCCLUSION", play with radius and intensity
