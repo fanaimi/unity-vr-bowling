@@ -35,3 +35,32 @@
 	
 * to avoiding seeiing through objects: 
 	* main camera > Camera > Clipping planes > Near: 0.01
+	
+* LIGHTTING SETUP
+	* start from > https://www.youtube.com/watch?v=wwm98VdzD8s&ab_channel=Brackeys 
+	* edit > project settings > player ==> other settings > rendering > color space > linear
+	* main camera > allow HDR
+	* main camera > rendering path > deferred
+	* edit > project settings > quality
+		* rendering > pixel light count > increase from 4 to 20
+* POST PROCESSING
+	* import "post processing stack" from git hub > com.unity.postprocessing
+	* documentation > https://docs.unity3d.com/Packages/com.unity.postprocessing@2.1/manual/Quick-start.html?_ga=2.129568652.1681433161.1637588404-840189481.1633385198
+	* also look at > https://www.youtube.com/watch?v=Ts2F2SxeRSY&t=1s&ab_channel=DitzelGames
+	* create a new layer in main camera and call it "post processing"
+	* main camera > add component > "post processing layer" > set layer as the one just created
+	* create a new game object called "post processing" > add "post process volume" component
+	* in assets > create > post processing profile
+	* associate newly post processing profile in post process volume component in post processing game object
+	* in postProcessing game object select layer > post processing
+	* in postProccessing component use "GLOBAL" or create a box collider for partial areas
+	* add effect > Color Grading
+		* tone mapping > mode > filmic (ACES) 
+		* tone > post exposure > .4
+		
+* LIGHTING 
+	==> window > rendering > lighting 
+	* lighting settings > new lighting settings (create a new one) 
+	* real time lighting > Real time global illumination	
+	* have a look at SKYBOX eg "free HDr sky"
+	
